@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class DemoController {
 
-    @PostMapping("/demo")
+    @GetMapping("/demo")
     public String welcome(){
         return "Welcome to JWT-Ivana Demo Application";
     }
